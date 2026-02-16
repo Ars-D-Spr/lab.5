@@ -5,9 +5,9 @@ using System.Linq;
 
 namespace lab._5.FolderforModel
 {
-    public partial class ModelDB : DbContext
+    public partial class Model1 : DbContext
     {
-        public ModelDB()
+        public Model1()
             : base("name=Model1")
         {
         }

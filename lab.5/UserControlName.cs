@@ -20,7 +20,7 @@ namespace lab._5
         }
 
         //Метод для заполнения control user
-        public void Fill( Table_Motorbike motorbike)//
+        public void Fill( Table_Motorbike motorbike)//Впараметры на входе в метод экземпляр класса Table_Motorbike
         {
             labellDData.Text = motorbike.ID.ToString();
             labelModelData.Text = motorbike.Model;
